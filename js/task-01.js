@@ -3,11 +3,11 @@ console.log("Number of categories: ", listOfcategories.children.length);
 
 console.log(
   "Category: ",
-  listOfcategories.children[0].childNodes[1].textContent
+  listOfcategories.firstElementChild.childNodes[1].textContent
 );
 console.log(
   "Elements: ",
-  listOfcategories.children[0].childNodes[3].children.length
+  listOfcategories.firstElementChild.childNodes[3].children.length
 );
 
 console.log(
@@ -21,9 +21,9 @@ console.log(
 
 console.log(
   "Category: ",
-  listOfcategories.children[2].childNodes[1].textContent
+  listOfcategories.lastElementChild.childNodes[1].textContent
 );
 console.log(
   "Elements: ",
-  listOfcategories.children[2].childNodes[3].children.length
+  listOfcategories.lastElementChild.childNodes[3].children.length
 );
